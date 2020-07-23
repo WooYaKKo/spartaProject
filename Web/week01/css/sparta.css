@@ -1,0 +1,17 @@
+
+        .blue-font{
+            color: blue;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .Open-Sans-font{
+           font-family: 'Open Sans', sans-serif;
+        }
+        .Do-Hyeon-font {
+        font-family: 'Do Hyeon', sans-serif;
+        }
+        * {
+        font-family: 'Do Hyeon', sans-serif;
+        }
+        #button-font {
+            font-family: 'Do Hyeon', sans-serif;
+        }

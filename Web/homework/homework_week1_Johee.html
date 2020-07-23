@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+  <style>
+    .wrap {
+      margin: 200px auto;
+      width: 800px;
+    }
+
+    * {
+      font-family: 'Yeon Sung', cursive;
+    }
+  </style>
+
+  <script>
+    function buyclick() {
+      alert('구매되었습니다.');
+    }
+  </script>
+  <title>PowerProBaseBall-2020</title>
+</head>
+
+<body class="wrap">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="http://www.gamewoori.com/shopimages/gamewoori/main_rolling1_27.jpg?1592975130" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h5 class="display-4">이상한게임팔아요</h5> &nbsp&nbsp&nbsp <h5>가격 : 3000원</h5>
+      <p class="lead">잼있음</p>
+      <p class="lead">꾸르잼</p>
+    </div>
+  </div>
+
+  <h2>주문하기</h2>
+  <!-- 주문입력 창 -->
+  <form>
+    <div class="form-group">
+      <label for="FormControlInput1">주문자 성함</label>
+      <input type="text" class="form-control" id="orderName" placeholder="">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Example select</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">주소</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">전화번호</label>
+      <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+    </div>
+    <div class="buy-button">
+      <input type="button" class="btn btn-primary" value="buy" onclick="buyclick()">
+    </div>
+  </form>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
