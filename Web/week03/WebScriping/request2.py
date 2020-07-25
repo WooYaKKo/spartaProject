@@ -11,3 +11,4 @@ city_air = response_data.json()
 # print(city_air)
 # 값을 출력
 print(city_air['RealtimeCityAir']['row'][0]['NO2'])
+print(city_air['RealtimeCityAir']['row'][0]['NO2'])
