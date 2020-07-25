@@ -1,0 +1,2 @@
+print("HellowWorld!")
+: wq
